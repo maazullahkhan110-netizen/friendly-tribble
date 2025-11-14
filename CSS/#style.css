@@ -1,0 +1,25 @@
+body{
+    margin : 0;
+    padding : 0;
+    background-color: antiqueWhite;
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: 700;
+    font-style: italic;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: lowercase;
+    text-shadow: 0px 0px 10px gray;
+    color: blue;
+    display: inline block;
+}
+img{
+    border: 2px solid black;
+    border-radius: 10px;
+    float: left;
+    margin-right: 20px;
+    padding- 3px;
+
+}

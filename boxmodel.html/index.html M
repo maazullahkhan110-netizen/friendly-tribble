@@ -1,0 +1,16 @@
+!DOC TYPE
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    initial-scale="1.0">
+    <title>Box Model</title>
+    <link rel="stylesheet" href="../CSS/%23style.css">
+
+</head>
+<body>
+    <img src="" alt="coding" align="left">
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. Cras venenatis euismod malesuada.
+    </p>
+</html>

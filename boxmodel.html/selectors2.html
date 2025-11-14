@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors Example</title>
+    <style>
+        .highlight {
+            color: red;
+            font-weight: bold;
+        }
+        #unique {
+            font-size: 20px;
+            text-decoration: underline;
+        }
+        p {
+            font-family: Arial, sans-serif;
+        }
+    </style>    
+</head>
+<body>
+    <!--css combinators-->
+    <div>
+        main > p{
+            color: green;
+        }
+        <p class even>
+            lorem ipsum dolor sit amet, consecteturadipiscing elit. 
+            Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+        </p>
+    </div>
+    main p{
+        color: blue;
+        }
+    <div>
+        <p class odd>
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea 
+            commodo consequat. Duis aute irure dolor in reprehenderit
+            in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+        </p>    
+    </div>
+    main > p{
+        color: green;
+        }   
+    <div>
+        #main p ::first letter{
+            
+            color: purple;
+        }
+        <p class(even) >
+            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit 
+            anim id est laborum. ipsum dolor sit amet consectetur 
+            adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </p>
+    </div>
+    main p {
+       background-color: yellow;
+        
+        }
+    <div>
+        # main p::after{
+            content: " - Read More";
+            color: orange;
+        } 
+        <p class (odd)>
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea 
+            commodo consequat. Duis aute irure dolor in reprehenderit
+            in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+        </p>
+    </div>
+
+    
+    
+    
+</body>
+</html>
