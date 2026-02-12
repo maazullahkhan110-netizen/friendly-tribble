@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Navigation Menu Example</title>
+
+    <style>
+       
+        header {
+            background-color: lightblue;
+            padding: 15px;
+            text-align: center;
+            display: block;
+        }
+
+       
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            background-color: black;
+            overflow: hidden;
+        }
+
+        
+        ul li {
+            display: inline-block; 
+            float: left;
+        }
+
+        
+        ul li a {
+            display: inline;
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+
+        ul li a:hover {
+            background-color: gray;
+        }
+
+      
+        .box {
+            width: 200px;
+            height: 100px;
+            background-color: orange;
+            float: left;
+            margin: 10px;
+            padding: 10px;
+        }
+
+        
+        .clear {
+            clear: both;
+        }
+
+        footer {
+            background-color: lightgray;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h2>My Website Navigation</h2>
+</header>
+
+<!-- Navigation Menu -->
+<ul>
+    <li><a href="#">Home</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Services</a></li>
+    <li><a href="#">Contact</a></li>
+</ul>
+
+<!-- Float Boxes -->
+<div class="box">Box 1 (Float Left)</div>
+<div class="box">Box 2 (Float Left)</div>
+
+<!-- Clear Float -->
+<div class="clear"></div>
+
+<footer>
+    <p>Footer Section</p>
+</footer>
+
+</body>
+</html>
